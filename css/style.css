@@ -1,0 +1,24 @@
+@import url("components/presentation.css");
+
+@import url("components/card.css");
+
+@import url("components/site-header.css");
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway:500,600i&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css"); 
+
+
+
+
+body {
+	font-family: raleway;
+	font-size: 18px;
+}
+

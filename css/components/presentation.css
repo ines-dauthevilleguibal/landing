@@ -1,0 +1,38 @@
+.presentation {
+
+	background-color: black;
+	background-size: cover;
+	color: white;
+	display: flex;
+	height: 30px;
+	border-radius: 4px;
+  
+	padding: 40px;
+	
+}
+
+.presentation h2 {
+	position: absolute;
+	left: 0;
+	transition: right 1s, transform 1s;
+	white-space: nowrap;
+	left: 100%;
+	transform: translateX(-100%);
+	font-family: 'Libre Baskerville', serif;
+	font-size: 40px;
+	font-weight: lighter;
+	margin-right: 15px;
+	
+}
+
+.presentation h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	align-items: flex-start;
+	padding-right: 20px;
+	font-size: 30px;
+
+
+}
+
+

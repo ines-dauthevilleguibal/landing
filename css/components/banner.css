@@ -1,0 +1,41 @@
+.banner {
+	animation: change 40s infinite;
+}
+			@-webkit-keyframes change {
+0%{
+	background-image: url(../../images/painting-image1.jpg);
+}
+40% {
+	background-image: url(../../images/painting-image2.jpg);
+}
+60% {
+    background-image: url(../../images/painting-image4.jpg);
+}
+
+100% {
+	background-image: url(../../images/painting-image1.jpg);
+}
+}
+
+.banner{
+    animation-name: change;
+    animation-duration: 40s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+
+.banner {
+
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	height: 400px;
+	background-position: center;
+} 
+
+.banner h2 {
+	margin-bottom: 40px;
+
+}
+	

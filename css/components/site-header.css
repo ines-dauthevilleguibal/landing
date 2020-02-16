@@ -1,0 +1,35 @@
+.site-header {
+
+display: flex;
+flex-wrap: wrap;
+height: 200px;
+color: white;
+background-color: black;
+margin: 0px;
+background-size: cover;
+align-items: flex-start;
+justify-content: space-between;
+
+
+}
+
+.site-header h1 {
+	font-family: 'Noto Serif', serif;
+	font-size: 150px;
+	justify-content: flex-start;
+	margin-top: 0px;
+	    font-weight: lighter;
+margin-left: 5px;
+
+	
+
+}
+
+.site-header p {
+font-family: 'Libre Baskerville', serif;
+font-size: 20px;
+margin-right: 10px;
+}
+
+
+    
